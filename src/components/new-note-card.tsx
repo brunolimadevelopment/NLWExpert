@@ -63,7 +63,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
         // sobreecrevemos o valor da variavel speechRecognition.
         speechRecognition = new SpeechRecognitionAPI()
 
-        speechRecognition.lang = 'pt-BR'
+        speechRecognition.lang = 'en-US'
         speechRecognition.continuous = true
         speechRecognition.maxAlternatives = 1
         speechRecognition.interimResults = true
